@@ -1,6 +1,6 @@
-import Sobre from './sobre';
-import Portfolio from './portfolio';
-import Habilidades from './habilidades'
+import Sobre from './sobre/index';
+import Portfolio from './portfolio/index';
+import Habilidades from './habilidades/index';
 
 function Main() {
   return (

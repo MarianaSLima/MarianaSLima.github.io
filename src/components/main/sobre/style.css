@@ -1,0 +1,60 @@
+/*--------------------------SOBRE-------------------------*/
+
+
+
+.sobre{
+    width: 100vw;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.area-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.sobre-esquerda{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+}
+.sobre-direita {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.texto-sobre {
+    width: 600px;
+}
+.texto-sobre p{
+
+    color: #000;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+.area-text h1{
+
+    color: #000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.area-titulo{
+    border-bottom: 3px solid black;
+}
