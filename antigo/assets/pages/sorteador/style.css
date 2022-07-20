@@ -1,0 +1,103 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    min-height: 150px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+main{
+    padding: 1em;
+    max-width: 80%;
+    margin: 0 auto;
+
+
+}
+section{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: lightpink;
+}
+
+.numero{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 15px; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
+    border: 1px;
+    border: 0.5px solid #D3D3D3;
+    background-color: lightpink;
+    text-align: center;
+    color: #fff;
+}
+.numerorevelar{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 15px; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
+    background-color: #D3D3D3;
+    color: #D3D3D3;
+    text-align: center;
+    border: 0.5px solid;
+    border-color: lightpink;
+    
+    
+
+}
+#numeros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#qtde, #min, #max{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 20px;
+    margin: 3px;
+}
+
+button{
+    padding: 7px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
