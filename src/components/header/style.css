@@ -1,10 +1,11 @@
 header{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: 120px;
     position: fixed;
     z-index: 1000;
+    top: 0;
 }
 
 .header-content{
@@ -13,8 +14,7 @@ header{
     width: 100%;
     height: 120px;
     justify-content: flex-end;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -29,12 +29,12 @@ header{
 .logo h1{
     font-size: 40px;
     font-family: 'vivaldi', cursive;
-
+    color: #fff;
 
 }
 
 .bar-header{
-    background-image: linear-gradient( to right, #00B4E0, #0093B8, #007694, #006680, #004D61);
+    background-image: linear-gradient( to right,  #dd7c49, #eb693f, #452926);
     width: 100%;
     height: 10px;
 }
@@ -52,7 +52,7 @@ header{
 }
 
 .navegation ul a {
-    color: #087c96;
+    color: #eb693f;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 18px;
@@ -63,7 +63,8 @@ header{
     
 }
 .navegation ul a:hover {
+    transition: 0.3s;
     font-size: 20px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid #dd7c49;
+    border-right: 1px solid #dd7c49;
 }

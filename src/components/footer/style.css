@@ -1,15 +1,12 @@
-.contato {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-}
-
 #footer {
-    background-color: #006680;
-    height: 100%;
-    width: 100vw;
+    background-color: #000000dd;
+    height: 180px;
+    width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
+    display: flex;
+    position: relative;
+    bottom: 0;
 }
 
 .footer-area1, 
@@ -17,14 +14,14 @@
 .footer-area3 {
     flex: 1;
     display: flex;
-    height: 200px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .footer-area3 {
     
-    border-right: 3px solid #cfcfcf;
+    border-right: 3px solid #452926;
 }
 
 .footer-area1 {
@@ -34,7 +31,7 @@
 
 .footer-area1 ul {
     text-decoration: none;
-    color: #cfcfcf;
+    color: #eb693f;
     
 }
 .footer-area1 ul li {
@@ -45,19 +42,19 @@
 
 .footer-area1 ul li a {
     
-    color: #cfcfcf;
+    color: #eb693f;
     font-size: 18px;
     text-decoration: none;
 }
 
 .footer-area2 {
-    border-left: 3px solid #cfcfcf;
-    border-right: 3px solid #cfcfcf;
+    border-left: 3px solid #452926;
+    border-right: 3px solid #452926;
 
 }
 
 .footer-area2 p{
-    color: #cfcfcf;
+    color: #eb693f;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -67,7 +64,7 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #cfcfcf;
+    color: #eb693f;
     font-size: 18px;
 }
 
@@ -81,35 +78,9 @@
 .endereco,
 .telefone {
     margin-top: 14px;
-    color: #cfcfcf;
+    color: #eb693f;
     font-size: 18px;
 }
-
-
-.rede-social {
-    flex: 1;
-    display: flex;
-    height: 200px;
-    padding-left: 14px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.rede-social i {
-    font-size: 40px;
-    color: #FFF;
-    height: 0 auto;
-    width: 0 auto;
-    margin-left: 35px;
-    margin-left: 35px;
-    cursor: pointer;
-    
-
-    
-}
-
 
 
 

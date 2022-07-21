@@ -1,7 +1,8 @@
 import './style.css';
 import React from 'react';
+import {FooterArea4, LinkRedes} from './styled';
 
-function Footer() {
+function Footer(props) {
     return (
         <>
             <footer id="footer" class="contato">
@@ -28,12 +29,12 @@ function Footer() {
                     </div>
 
                 </div>
-                <div class="rede-social">
-                    <a href="https://www.instagram.com/mari_lima162/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://github.com/MarianaSLima" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mariana-dos-santos-lima-aa78921b9/" target="_blank"><i
-                        class="fa fa-linkedin"></i></a>
-                </div>
+                <FooterArea4>
+                    <LinkRedes href={props.instagram} target="_blank"><i class="fa-brands fa-instagram fa-2x"/></LinkRedes>
+                    <LinkRedes href={props.gitHub} target="_blank"><i class="fa-brands fa-github fa-2x"/></LinkRedes>
+                    <LinkRedes href={props.linkedIn} target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"/></LinkRedes>
+                    <LinkRedes href={props.twitter} target="_blank"><i class="fa-brands fa-twitter fa-2x"/></LinkRedes>
+                </FooterArea4>
             </footer>
         </>
     );
