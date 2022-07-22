@@ -14,6 +14,6 @@ export const LinkRedes = styled.a`
     margin-left: 35px;
     margin-left: 35px;
     cursor: pointer;
-    color: #eb693f;
+    color: #fff;
 `;
 

@@ -1,7 +1,0 @@
-paleta
-#452926 -- Marrom
-#eb693f -- Laranja
-#dd7c49 -- Bege
-#000000cc -- Preto
-------------------
-#0093B8 -- tons de azul

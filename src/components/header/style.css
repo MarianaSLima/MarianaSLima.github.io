@@ -6,6 +6,7 @@ header{
     position: fixed;
     z-index: 1000;
     top: 0;
+    background-color: #fff;
 }
 
 .header-content{
@@ -14,7 +15,6 @@ header{
     width: 100%;
     height: 120px;
     justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -29,12 +29,12 @@ header{
 .logo h1{
     font-size: 40px;
     font-family: 'vivaldi', cursive;
-    color: #fff;
+    color: #000;
 
 }
 
 .bar-header{
-    background-image: linear-gradient( to right,  #dd7c49, #eb693f, #452926);
+    background-image: linear-gradient( to right, #00B4E0, #0093B8, #007694, #006680, #004D61);
     width: 100%;
     height: 10px;
 }
@@ -52,7 +52,7 @@ header{
 }
 
 .navegation ul a {
-    color: #eb693f;
+    color: #087c96;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 18px;
@@ -65,6 +65,6 @@ header{
 .navegation ul a:hover {
     transition: 0.3s;
     font-size: 20px;
-    border-left: 1px solid #dd7c49;
-    border-right: 1px solid #dd7c49;
+    border-left: 1px solid #087c96;
+    border-right: 1px solid #087c96;
 }

@@ -5,7 +5,7 @@
 .sobre{
     width: 100%;
     height: 800px;
-    margin: 0 auto;
+    margin-top: 120px;
     display: flex;
     background-size: cover;
     align-items: center;
@@ -40,21 +40,17 @@
     width: 600px;
 }
 .texto-sobre p{
-
-    color: #000;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 
 }
 .area-text h1{
-
-    color: #000;
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 }
 .area-titulo{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(0, 0, 0);
 }

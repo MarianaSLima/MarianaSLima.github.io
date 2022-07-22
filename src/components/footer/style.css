@@ -1,5 +1,5 @@
 #footer {
-    background-color: #000000dd;
+    background-color: #087c96;
     height: 180px;
     width: 100%;
     padding-top: 8px;
@@ -21,7 +21,7 @@
 }
 .footer-area3 {
     
-    border-right: 3px solid #452926;
+    border-right: 3px solid #fff;
 }
 
 .footer-area1 {
@@ -31,7 +31,7 @@
 
 .footer-area1 ul {
     text-decoration: none;
-    color: #eb693f;
+    color: #fff;
     
 }
 .footer-area1 ul li {
@@ -42,19 +42,19 @@
 
 .footer-area1 ul li a {
     
-    color: #eb693f;
+    color: #fff;
     font-size: 18px;
     text-decoration: none;
 }
 
 .footer-area2 {
-    border-left: 3px solid #452926;
-    border-right: 3px solid #452926;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
 
 }
 
 .footer-area2 p{
-    color: #eb693f;
+    color: #fff;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #eb693f;
+    color: #fff;
     font-size: 18px;
 }
 
@@ -78,7 +78,7 @@
 .endereco,
 .telefone {
     margin-top: 14px;
-    color: #eb693f;
+    color: #fff;
     font-size: 18px;
 }
 

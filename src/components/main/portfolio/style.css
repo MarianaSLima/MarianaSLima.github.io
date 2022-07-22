@@ -1,16 +1,5 @@
 /*-------------------------Portifólio---------------------*/
 
-.portifolio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 0  auto;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .portifolio-proj{
     display: flex;
     align-items: center;
