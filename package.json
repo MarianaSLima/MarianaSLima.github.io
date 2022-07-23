@@ -33,7 +33,7 @@
   "homepage": "https://marianaslima.github.io/portfolio",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
