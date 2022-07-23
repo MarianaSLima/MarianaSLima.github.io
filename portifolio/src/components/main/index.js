@@ -12,7 +12,17 @@ function Main(props) {
 
       <section id="portifolio" class="portifolio">
         <h2 class="titulos">Portifólio</h2>
-        <Portfolio />
+        <div className='port-grid'>
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+          <Portfolio />
+        </div>
       </section>
 
       <section id="habilidades" class="habilidades">
@@ -26,7 +36,7 @@ function Main(props) {
           <Habilidades porc={props.mysql} icon="fa-solid fa-database fa-4x" corIcon="054f77" />
         </div>
       </section>
-      
+
     </main>
   );
 }

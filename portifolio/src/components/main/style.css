@@ -11,6 +11,14 @@
     background-color: #FFFFFF;
 }
 
+.port-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 180px);
+    grid-gap: 15px;
+    width: 90%;
+}
+
 .habilidades{
     display: flex;
     flex-direction: column;
