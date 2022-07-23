@@ -3,10 +3,10 @@ import { DescArea, DescTexto, DescTitulo, PortContent, PortImg } from "./styled"
 function Portfolio(props) {
     return (
         <PortContent>
-            <PortImg />
+            <PortImg src={props.imagem} alt={props.imagemAlt} />
             <DescArea>
-                <DescTitulo></DescTitulo>
-                <DescTexto></DescTexto>
+                <DescTitulo  href={props.linkProjeto} target='_blank'>{props.nomeProjeto}</DescTitulo>
+                <DescTexto>{props.descProjeto}</DescTexto>
             </DescArea>
         </PortContent>
     );

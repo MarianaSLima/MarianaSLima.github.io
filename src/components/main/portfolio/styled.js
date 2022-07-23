@@ -16,7 +16,7 @@ export const DescArea = styled.div`
 
 `;
 
-export const DescTitulo = styled.h1`
+export const DescTitulo = styled.a`
 
 `;
 

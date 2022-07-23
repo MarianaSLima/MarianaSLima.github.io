@@ -13,15 +13,15 @@ function Main(props) {
       <section id="portifolio" class="portifolio">
         <h2 class="titulos">Portifólio</h2>
         <div className='port-grid'>
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
-          <Portfolio />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="" imagemAlt="" nomeProjeto="" descProjeto="" />
+          <Portfolio linkProjeto="" imagem="./images/sorteador-capa.png" imagemAlt="Sorteador" nomeProjeto="Sorteador" descProjeto="Um site que sorteia números de acordo com um intervalo escolhido pelo usuário" />
         </div>
       </section>
 
