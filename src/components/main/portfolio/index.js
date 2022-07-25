@@ -1,14 +1,14 @@
-import { DescArea, DescTexto, DescTitulo, PortContent, PortImg } from "./styled";
+import "./style.css";
 
 function Portfolio(props) {
     return (
-        <PortContent>
-            <PortImg src={props.imagem} alt={props.imagemAlt} />
-            <DescArea>
-                <DescTitulo  href={props.linkProjeto} target='_blank'>{props.nomeProjeto}</DescTitulo>
-                <DescTexto>{props.descProjeto}</DescTexto>
-            </DescArea>
-        </PortContent>
+        <div className="port-content">
+            <img className="port-image" src={props.imagem} alt={props.imagemAlt} />
+            <div className="desc-area">
+                <div className="desc-titulo" href={props.linkProjeto} target='_blank'>{props.nomeProjeto}</div>
+                <div className="desc-texto">{props.descProjeto}</div>
+            </div>
+        </div>
     );
 }
 

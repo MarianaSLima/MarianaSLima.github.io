@@ -1,0 +1,36 @@
+.port-content:hover{
+    border: 1px solid #aaa; 
+}
+
+.port-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desc-area{
+    display: none;
+    background-color: rgba(240, 248, 255, 0.705);
+    animation: revel-desc 2s;
+}
+
+.desc-titulo{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.desc-texto{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.port-content:hover .desc-area {
+    display: block;
+}
+
+@keyframes revel-desc{
+    0%{height: 0%;}
+    100%{height: 40%;}
+}
