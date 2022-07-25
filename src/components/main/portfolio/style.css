@@ -11,7 +11,7 @@
 .desc-area{
     display: none;
     background-color: rgba(240, 248, 255, 0.705);
-    animation: revel-desc 2s;
+    
 }
 
 .desc-titulo{
@@ -28,6 +28,7 @@
 
 .port-content:hover .desc-area {
     display: block;
+    animation: revel-desc 2s;
 }
 
 @keyframes revel-desc{
