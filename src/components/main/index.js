@@ -12,51 +12,67 @@ function Main(props) {
 
       <section id="portifolio" class="portifolio">
         <h2 class="titulos">Portifólio</h2>
-        <div className='port-grid'>
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
-          <Portfolio linkProjeto=""
-            imagem=""
-            imagemAlt=""
-            nomeProjeto=""/>
-
+        <div className='port-row'>
           <Portfolio linkProjeto="./projetos/sorteador/index.html"
             imagem="./images/capas-sites/sorteador.png"
             imagemAlt="Sorteador"
-            nomeProjeto="Sorteador"/>
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
+            imagemAlt="Sorteador"
+            nomeProjeto="Sorteador" />
 
         </div>
       </section>

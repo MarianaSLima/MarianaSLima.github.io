@@ -11,11 +11,12 @@
     background-color: #FFFFFF;
 }
 
-.port-grid{
+.port-row{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 180px);
-    grid-gap: 15px;
+    grid-template-rows: repeat(2);
+    column-gap: 3px;
+    row-gap: 7px;
     width: 90%;
 }
 
