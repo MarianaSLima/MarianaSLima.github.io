@@ -1,8 +1,14 @@
 .port-content:hover{
-    border: 1px solid #aaa; 
+    border: 1px solid rgb(255, 255, 255); 
 }
 
-.port-image{
+.port-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.port-content img{
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -10,8 +16,15 @@
 
 .desc-area{
     display: none;
-    background-color: rgba(240, 248, 255, 0.705);
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
 
 .desc-titulo{
@@ -19,19 +32,27 @@
     text-align: center;
     font-weight: 600;
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 
 .desc-texto{
     font-size: 16px;
     text-align: justify;
+    letter-spacing: 1;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px double #fff;
+    padding: 6px;
 }
 
 .port-content:hover .desc-area {
-    display: block;
-    animation: revel-desc 2s;
+    display: flex;
+    animation: revel-desc 0.4s;
 }
 
 @keyframes revel-desc{
     0%{height: 0%;}
-    100%{height: 40%;}
+    100%{height: 100%;}
 }

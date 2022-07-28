@@ -2,13 +2,14 @@ import "./style.css";
 
 function Portfolio(props) {
     return (
-        <div className="port-content">
-            <img className="port-image" src={props.imagem} alt={props.imagemAlt} />
-            <div className="desc-area">
-                <div className="desc-titulo" href={props.linkProjeto} target='_blank'>{props.nomeProjeto}</div>
-                <div className="desc-texto">{props.descProjeto}</div>
+            <div className="port-content">
+                <img src={props.imagem} alt={props.imagemAlt} />
+                <div className="desc-area">
+                    <h1 className="desc-titulo">{props.nomeProjeto}</h1>
+                    <a className="desc-texto" href={props.linkProjeto} target='_blank'>acessar</a>
+                </div>
             </div>
-        </div>
+
     );
 }
 

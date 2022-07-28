@@ -16,56 +16,47 @@ function Main(props) {
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
           <Portfolio linkProjeto=""
             imagem=""
             imagemAlt=""
-            nomeProjeto=""
-            descProjeto="" />
+            nomeProjeto=""/>
 
-          <Portfolio linkProjeto=""
-            imagem="./images/sorteador-capa.png"
+          <Portfolio linkProjeto="./projetos/sorteador/index.html"
+            imagem="./images/capas-sites/sorteador.png"
             imagemAlt="Sorteador"
-            nomeProjeto="Sorteador"
-            descProjeto="Um site que sorteia números de acordo com um intervalo escolhido pelo usuário" />
+            nomeProjeto="Sorteador"/>
 
         </div>
       </section>
